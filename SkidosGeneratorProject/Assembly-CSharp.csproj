@@ -53,14 +53,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AppConstants.cs" />
-     <Compile Include="Assets\Scripts\ChapterHandler.cs" />
-     <Compile Include="Assets\Scripts\DataEntryHandler.cs" />
-     <Compile Include="Assets\Scripts\DataLoader.cs" />
-     <Compile Include="Assets\Scripts\EventManager.cs" />
-     <Compile Include="Assets\Scripts\StudentDataHandler.cs" />
-     <Compile Include="Assets\Scripts\SubjectDataHandler.cs" />
-     <Compile Include="Assets\Scripts\SubtopicDataHandler.cs" />
+     <Compile Include="Assets\Scripts\DataEntry\DataEntryHandler.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\ChapterHandler.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\ChapterListViewHandler.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\ListViewBase.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\StudentDataHandler.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\SubjectDataHandler.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\SubjectListViewHandler.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\SubtopicDataHandler.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\SubtopicViewHandler.cs" />
+     <Compile Include="Assets\Scripts\DataViewHandlers\ViewHandler.cs" />
+     <Compile Include="Assets\Scripts\Utils\AppConstants.cs" />
+     <Compile Include="Assets\Scripts\Utils\EventManager.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/MiniProjects/Skidos/SkidosGitBash/SkidosGeneratorProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

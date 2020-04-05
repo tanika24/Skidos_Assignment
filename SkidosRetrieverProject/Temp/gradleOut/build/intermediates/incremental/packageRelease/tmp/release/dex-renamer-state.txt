@@ -1,0 +1,4 @@
+#Sun Apr 05 20:55:49 IST 2020
+base.0=E\:\\MiniProjects\\Skidos\\SkidosGitBash\\SkidosRetrieverProject\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

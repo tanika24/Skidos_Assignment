@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class DataRetriever : MonoBehaviour
 {
     public Text resultTxt;
-    public Text warningTxt;
 
     const string generatorPkgName = "com.Skidos.Generator";
     const string fileName = "KVPData.txt";
@@ -21,16 +20,10 @@ public class DataRetriever : MonoBehaviour
 
     void ShowData()
     {
-        // string path = "C:/Users/pc/AppData/LocalLow/DefaultCompany/SkidosGeneratorProject/KVPData.txt";
         string path = Path.Combine(Application.persistentDataPath.Replace(Application.identifier, generatorPkgName), fileName);
-        warningTxt.text = path;
         StreamReader reader = new StreamReader(path);
-        string lineA = reader.ReadLine();
+        string lineA = reader.ReadToEnd();
         resultTxt.text = lineA;
     }
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
 }
